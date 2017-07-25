@@ -43,3 +43,50 @@ n = 100
 x100 = x1 + (n - 1) * d
 s = (x1 + x100) * n / 2
 print (s)
+
+# 请将下面两行内容用Python的字符串表示并打印出来：
+# Python was started in 1989 by "Guido".
+# Python is free and easy to learn.
+
+print("Python was started in 1989 by \"Guido\".")
+print("Python is free and easy to learn.")
+
+# raw字符串
+print(r"\(~_~)/ \(~_~)/")
+
+# 多行字符串
+print('''Line 1
+Line 2
+Line 3''')
+
+# 请把下面的字符串用r'''...'''的形式改写，并用print打印出来：
+# '\"To be, or not to be\": that is the question.\nWhether it\'s nobler in the mind to suffer.'
+print(r'''"To be, or not to be": that is the question.
+Whether it's nobler in the mind to suffer.''')
+
+print (u'''
+静夜思
+床前明月光，
+疑是地上霜。
+举头望明月，
+低头思故乡。''')
+
+# 利用while循环计算100以内奇数的和。
+sum = 0
+x = 1
+while x < 100:
+    sum = sum + x
+    x = x + 2
+print (sum)
+
+# 利用 while True 无限循环配合 break 语句，计算 1 + 2 + 4 + 8 + 16 + ... 的前20项的和。
+sum = 0
+x = 1
+n = 1
+while True:
+    sum = sum + x
+    x = x * 2
+    n = n + 1
+    if n > 20:
+        break
+print (sum)
