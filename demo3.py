@@ -1,49 +1,19 @@
-import requests
-import json
-from bs4 import BeautifulSoup
-import lxml
+# 一个整数，它加上100后是一个完全平方数，再加上168又是一个完全平方数，请问该数是多少？
+# 程序分析：
+# 假设该数为 x。
+# 1、则：x + 100 = n2, x + 100 + 168 = m2
+# 2、计算等式：m2 - n2 = (m + n)(m - n) = 168
+# 3、设置： m + n = i，m - n = j，i * j =168，i 和 j 至少一个是偶数
+# 4、可得： m = (i + j) / 2， n = (i - j) / 2，i 和 j 要么都是偶数，要么都是奇数。
+# 5、从 3 和 4 推导可知道，i 与 j 均是大于等于 2 的偶数。
+# 6、由于 i * j = 168， j>=2，则 1 < i < 168 / 2 + 1。
+# 7、接下来将 i 的所有数字循环计算即可。
 
-url = 'https://chs.meituan.com/'
-headers = {
-    'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    'Accept-Language':'en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4',
-    'Cache-Control':'max-age=0',
-    'Connection':'keep-alive',
-    'Host':'chs.meituan.com',
-    'Referer':'https://chs.meituan.com/',
-    'Upgrade-Insecure-Requests':'1',
-    'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
-    'Content-Type':'text/html; charset=UTF-8',
-}
-
-# 获取分类
-def get_start_links(url):
-    html = requests.get(url).text
-    #print (html)
-    soup = BeautifulSoup(html, 'lxml')
-    links = [link.find('div').find('div').find('dl').find('dt').find('a')['href'] for link in soup.find_all('div', class_='J-nav-item')]
-    #print (links)
-    return links
-
-def get_detail_id(url, headers=headers):
-    html = requests.get(url, headers=None).text
-    soup = BeautifulSoup(html, 'lxml')
-    # loads将json转dict
-    content_id = json.loads(soup.find('div',class_='J-scrollloader cf J-hub')['data-async-params'])
-    return json.loads(content_id.get('data')).get('poiidList')
-
-
-
-def main(url):
-     start_url_list = get_start_links(url)
-     for j in start_url_list:
-         for i in range(1, 11):
-            category_url = j+'/all/page{}'.format(i)
-            shop_id_list = get_detail_id(category_url, headers=None)
-            print (shop_id_list)
-#            for shop_id in shop_id_list:
-#                 item = get_item_info(url+'shop/{}'.format(shop_id, headers))
-#                 item_list.append(items)
-
-if __name__ == '__main__':
-    main(url)
+for i in range(1,85):
+    if 168 % i == 0:
+        j = 168 / i;
+        if  i > j and (i + j) % 2 == 0 and (i - j) % 2 == 0 :
+            m = (i + j) / 2
+            n = (i - j) / 2
+            x = n * n - 100
+            print(x)
