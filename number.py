@@ -1,3 +1,5 @@
+import random
+
 # 数据类型是不允许改变的,这就意味着如果改变 Number 数据类型的值，将重新分配内存空间。
 
 # 以下实例在变量赋值时 Number 对象将被创建：
@@ -38,3 +40,13 @@ print var1
 # ord(x )                 将一个字符转换为它的整数值  
 # hex(x )                 将一个整数转换为一个十六进制字符串  
 # oct(x )                 将一个整数转换为一个八进制字符串  
+
+print( random.randint(1,10) )        # 产生 1 到 10 的一个整数型随机数  
+print( random.random() )             # 产生 0 到 1 之间的随机浮点数
+print( random.uniform(1.1,5.4) )     # 产生  1.1 到 5.4 之间的随机浮点数，区间可以不是整数
+print( random.choice('tomorrow') )   # 从序列中随机选取一个元素
+print( random.randrange(1,100,2) )   # 生成从1到100的间隔为2的随机整数
+
+a = [1,3,5,6,7]                # 将序列a中的元素顺序打乱
+random.shuffle(a)
+print(a)
