@@ -240,6 +240,20 @@ trantab = maketrans(intab, outtab)
 str = "this is string example....wow!!!";
 print str.translate(trantab);
 
+# Python translate() 方法根据参数table给出的表(包含 256 个字符)转换字符串的字符, 要过滤掉的字符放到 del 参数中。
+# translate()方法语法：
+# str.translate(table[, deletechars]);
+# table -- 翻译表，翻译表是通过maketrans方法转换而来。
+# deletechars -- 字符串中要过滤的字符列表。
+# 返回翻译后的字符串。
+
+intab = "aeiou"
+outtab = "12345"
+trantab = maketrans(intab, outtab)
+ 
+str = "this is string example....wow!!!";
+print str.translate(trantab);
+
 # partition() 方法用来根据指定的分隔符将字符串进行分割。
 # 如果字符串包含指定的分隔符，则返回一个3元的元组，第一个为分隔符左边的子串，第二个为分隔符本身，第三个为分隔符右边的子串。
 # partition() 方法是在2.5版中新增的。
