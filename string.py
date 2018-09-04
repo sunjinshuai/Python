@@ -1,3 +1,5 @@
+from string import maketrans   # 必须调用 maketrans 函数。
+
 var1 = 'Hello World!'
 var2 = "Python Runoob"
 
@@ -168,7 +170,6 @@ str2 = "exam";
  
 print str1.index(str2);
 print str1.index(str2, 10);
-print str1.index(str2, 40);
 
 # Python isalnum() 方法检测字符串是否由字母和数字组成。
 # isalnum()方法语法：
@@ -212,3 +213,77 @@ print str.istitle();
 str = "-";
 seq = ("a", "b", "c"); # 字符串序列
 print str.join( seq );
+
+# Python lstrip() 方法用于截掉字符串左边的空格或指定字符。
+# lstrip()方法语法：
+# str.lstrip([chars])
+# chars --指定截取的字符。
+# 返回截掉字符串左边的空格或指定字符后生成的新字符串。
+
+str = "     this is string example....wow!!!     ";
+print str.lstrip();
+str = "88888888this is string example....wow!!!8888888";
+print str.lstrip('8');
+
+# Python maketrans() 方法用于创建字符映射的转换表，对于接受两个参数的最简单的调用方式，第一个参数是字符串，表示需要转换的字符，第二个参数也是字符串表示转换的目标。
+# 注：两个字符串的长度必须相同，为一一对应的关系。
+# maketrans()方法语法：
+# str.maketrans(intab, outtab)
+# intab -- 字符串中要替代的字符组成的字符串。
+# outtab -- 相应的映射字符的字符串。
+# 返回字符串转换后生成的新字符串。
+
+intab = "aeiou"
+outtab = "12345"
+trantab = maketrans(intab, outtab)
+
+str = "this is string example....wow!!!";
+print str.translate(trantab);
+
+# partition() 方法用来根据指定的分隔符将字符串进行分割。
+# 如果字符串包含指定的分隔符，则返回一个3元的元组，第一个为分隔符左边的子串，第二个为分隔符本身，第三个为分隔符右边的子串。
+# partition() 方法是在2.5版中新增的。
+# partition()方法语法：
+# str.partition(str)
+# str : 指定的分隔符。
+# 返回一个3元的元组，第一个为分隔符左边的子串，第二个为分隔符本身，第三个为分隔符右边的子串。
+
+str = "www.baidu.com"
+ 
+print str.partition(".")
+
+# Python replace() 方法把字符串中的 old（旧字符串） 替换成 new(新字符串)，如果指定第三个参数max，则替换不超过 max 次。
+# replace()方法语法：
+# str.replace(old, new[, max])
+# old -- 将被替换的子字符串。
+# new -- 新字符串，用于替换old子字符串。
+# max -- 可选字符串, 替换不超过 max 次
+# 返回字符串中的 old（旧字符串） 替换成 new(新字符串)后生成的新字符串，如果指定第三个参数max，则替换不超过 max 次。
+
+str = "this is string example....wow!!! this is really string";
+print str.replace("is", "was");
+print str.replace("is", "was", 2);
+
+# Python split() 通过指定分隔符对字符串进行切片，如果参数 num 有指定值，则仅分隔 num 个子字符串
+# split() 方法语法：
+# str.split(str="", num=string.count(str))
+# str -- 分隔符，默认为所有的空字符，包括空格、换行(\n)、制表符(\t)等。
+# num -- 分割次数。
+# 返回分割后的字符串列表。
+
+str = "Line1-abcdef \nLine2-abc \nLine4-abcd";
+print str.split( );
+print str.split(' ', 1 );
+
+# Python strip() 方法用于移除字符串头尾指定的字符（默认为空格或换行符）或字符序列。
+# 注意：该方法只能删除开头或是结尾的字符，不能删除中间部分的字符。
+# strip()方法语法：
+# str.strip([chars]);
+# chars -- 移除字符串头尾指定的字符序列。
+# 返回移除字符串头尾指定的字符生成的新字符串。
+
+str = "00000003210baidu01230000000"; 
+print str.strip( '0' );  # 去除首尾字符 0
+
+str2 = "   baidu      ";   # 去除首尾空格
+print str2.strip();
