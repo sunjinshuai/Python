@@ -30,3 +30,15 @@ elif 600001 < x <= 1000000:
 elif 600001 < x <= 1000000:
     bonus = 10000 + 7500 + 10000 + 6000 + 6000 + (x - 600000) * 0.01
     print u"奖金:",bonus,u"元"
+
+# 题目：列表转换为字典。
+
+k = [1, 2, 3, 4] # key
+v = ['a', 'b', 'c', 'd']
+
+d = {}
+
+for i in range(len(v)):
+    d.setdefault(v[i], k[i])
+print d
+
