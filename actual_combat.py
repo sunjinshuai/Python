@@ -42,3 +42,12 @@ for i in range(len(v)):
     d.setdefault(v[i], k[i])
 print d
 
+# 题目：将一个列表的数据复制到另一个列表中。
+
+l1 = [1, 2, 3, 4]
+l2 = []
+
+for i in range(len(l1)):
+    l2.append(i+1)
+
+print l2
