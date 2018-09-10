@@ -2,17 +2,35 @@
 
 对于入门，主要是掌握基本的语法和熟悉编程规范，因此大部分的教程基本一致的，所以还是建议选好适合自己的一个教程，坚持学下去。
 
+## Python 学习资源集
+
+[Python 在线手册站](http://docs.pythontab.com)
+
+[网易云课程](https://study.163.com/course/introduction.htm?courseId=1003655001&utm_campaign=share&utm_content=courseIntro&utm_medium=iphoneShare&utm_source=weixing)
+
+[廖雪峰 Python 教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+
+[Python 基础教程](http://www.runoob.com/python/python-tutorial.html)
+
+[莫烦Python](https://morvanzhou.github.io/tutorials/python-basic/)
+
+## Python 视频教程资源
+
+[传智播客教程](http://pan.baidu.com/s/1jI85lv4) 密码：429y 解压密码：www.snowfox.wang
+
+[黑马 Python 教程](http://pan.baidu.com/s/1nvJox4H) 密码：h0d2
+
+[Python 全栈开发教程](https://pan.baidu.com/s/1dvNbVS) 密码：tj0t
+
+[Python升级3.6 强力Django+杀手级Xadmin打造在线教育平台](https://pan.baidu.com/s/1INbI_KwpSzbDGzdE6kySpw) 密码:lhg1
+
+[Python高效编程技巧实战](https://pan.baidu.com/s/1Li0dyZM5dGEOIB6St66zwQ)  密码:z8rc
+
+## Python 入门
+
 **主要目录如下：**
 
-* [Python代码规范](/Article/codeSpecification/codeSpecification_Preface.md)
-  - [简明概述](/Article/codeSpecification/codeSpecification_first.md)
-  - [注释](/Article/codeSpecification/codeSpecification_second.md)
-  - [命名规范](/Article/codeSpecification/codeSpecification_third.md)
-* [第一个Python程序](/Article/python1/Preface.md)
-  - [Python 简介](/Article/python1/Introduction.md)
-  - [Python 的安装](/Article/python1/Installation.md)
-  - [第一个 Python 程序](/Article/python1/The_first_procedure.md)
-  - [集成开发环境（IDE）: PyCharm](/Article/python1/IDE.md)
+* [基础语法](/Article/basic_grammar.md)
 * [基本数据类型和变量](/Article/python2/Preface.md)
   - [Python 语法的简要说明](/Article/python2/Grammar.md)
   - [Python 的基本数据类型](/Article/python2/Type_of_data.md)
