@@ -4,10 +4,7 @@
 
 **主要目录如下：**
 
-* [Python代码规范](/Article/codeSpecification/codeSpecification_Preface.md)
-  - [简明概述](/Article/codeSpecification/codeSpecification_first.md)
-  - [注释](/Article/codeSpecification/codeSpecification_second.md)
-  - [命名规范](/Article/codeSpecification/codeSpecification_third.md)
+* [基础语法](/Article/basic_grammar.md)
 * [第一个Python程序](/Article/python1/Preface.md)
   - [Python 简介](/Article/python1/Introduction.md)
   - [Python 的安装](/Article/python1/Installation.md)
