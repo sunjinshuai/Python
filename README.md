@@ -5,11 +5,6 @@
 **主要目录如下：**
 
 * [基础语法](/Article/basic_grammar.md)
-* [第一个Python程序](/Article/python1/Preface.md)
-  - [Python 简介](/Article/python1/Introduction.md)
-  - [Python 的安装](/Article/python1/Installation.md)
-  - [第一个 Python 程序](/Article/python1/The_first_procedure.md)
-  - [集成开发环境（IDE）: PyCharm](/Article/python1/IDE.md)
 * [基本数据类型和变量](/Article/python2/Preface.md)
   - [Python 语法的简要说明](/Article/python2/Grammar.md)
   - [Python 的基本数据类型](/Article/python2/Type_of_data.md)
