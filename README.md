@@ -1,5 +1,42 @@
 # Python 入门
 
+Python 学习资源集
+
+* **Python 在线手册**
+   - 链接: [Python 在线手册站](http://docs.pythontab.com)
+
+* **Python轻松入门**
+   - 链接：[网易云课程](https://study.163.com/course/introduction.htm?courseId=1003655001&utm_campaign=share&utm_content=courseIntro&utm_medium=iphoneShare&utm_source=weixing)
+
+* **廖雪峰 Python 教程**
+   - 链接：[廖雪峰 Python 教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
+
+* **Python 基础教程**
+   - 链接：[Python 基础教程](http://www.runoob.com/python/python-tutorial.html)
+
+* **莫烦Python**
+   - 链接：[莫烦Python](https://morvanzhou.github.io/tutorials/python-basic/)
+
+# Python 视频教程资源
+
+* **传智播客教程：（压缩包密码在压缩包解析那里）**
+   - 链接：[http://pan.baidu.com/s/1jI85lv4](http://pan.baidu.com/s/1jI85lv4) 密码：429y
+   - 解压密码：www.snowfox.wang
+
+* **黑马**
+   - 链接：[http://pan.baidu.com/s/1nvJox4H](http://pan.baidu.com/s/1nvJox4H) 密码：h0d2
+
+* **Python 全栈开发教程**
+    - 链接：[https://pan.baidu.com/s/1dvNbVS](https://pan.baidu.com/s/1dvNbVS) 密码：tj0t
+    - 目录 [Python全栈开发教学视频目录](/Res/Python全栈开发教学视频目录.md)
+
+* **Python升级3.6 强力Django+杀手级Xadmin打造在线教育平台**
+    -链接:https://pan.baidu.com/s/1INbI_KwpSzbDGzdE6kySpw  密码:lhg1
+
+
+* **Python高效编程技巧实战**
+    - 链接 : https://pan.baidu.com/s/1Li0dyZM5dGEOIB6St66zwQ  密码:z8rc
+
 对于入门，主要是掌握基本的语法和熟悉编程规范，因此大部分的教程基本一致的，所以还是建议选好适合自己的一个教程，坚持学下去。
 
 **主要目录如下：**
