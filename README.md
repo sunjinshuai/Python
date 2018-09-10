@@ -1,6 +1,6 @@
 # Python 入门
 
-Python 学习资源集
+## Python 学习资源集
 
 * **Python 在线手册**
    - 链接: [Python 在线手册站](http://docs.pythontab.com)
@@ -17,7 +17,7 @@ Python 学习资源集
 * **莫烦Python**
    - 链接：[莫烦Python](https://morvanzhou.github.io/tutorials/python-basic/)
 
-# Python 视频教程资源
+## Python 视频教程资源
 
 * **传智播客教程：（压缩包密码在压缩包解析那里）**
    - 链接：[http://pan.baidu.com/s/1jI85lv4](http://pan.baidu.com/s/1jI85lv4) 密码：429y
@@ -38,6 +38,8 @@ Python 学习资源集
     - 链接 : https://pan.baidu.com/s/1Li0dyZM5dGEOIB6St66zwQ  密码:z8rc
 
 对于入门，主要是掌握基本的语法和熟悉编程规范，因此大部分的教程基本一致的，所以还是建议选好适合自己的一个教程，坚持学下去。
+
+## Python 入门
 
 **主要目录如下：**
 
