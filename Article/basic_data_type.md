@@ -10,7 +10,7 @@ Set（集合）
 Dictionary（字典）
 Python3 的六个标准数据类型中：
 
-不可变类型（3 个）：Number（数字）、String（字符串）、Tuple（元组）；
+不可变类型（3 个）：Number（数字）、String（字符串）、Tuple（元组）；</br>
 可变类型（3 个）：List（列表）、Dictionary（字典）、Set（集合）。
 
 Python3 在 Python2 的基础上增加了 Set（集合）。
