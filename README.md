@@ -31,8 +31,8 @@
 **主要目录如下：**
 
 * [基础语法](/Article/basic_grammar.md)
-* [基本数据类型]()
-  - [标准数据类型](/Article/python2/Grammar.md)
+* 基本数据类型
+  - [标准数据类型](/Article/basic_data_type.md)
   - [Python 的基本数据类型](/Article/python2/Type_of_data.md)
   - [基本数据类型转换](/Article/python2/Type_conversion.md)
   - [Python 中的变量](/Article/python2/Variable.md)
